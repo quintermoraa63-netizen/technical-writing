@@ -72,17 +72,18 @@ Create a new repository on GitHub.
 
 **Expected result:** A new GitHub repository is created and its repository page opens.
 
-### Step 11: Connect the local repository
+### Step 11: Add the GitHub repository as a remote
 
-Add the GitHub repository as the remote named `origin`.
+Run `git remote add origin https://github.com/your-username/my-first-project.git`.
 
-**Expected result:** The local repository is connected to the GitHub repository.
+**Expected result:** The GitHub repository is added as the `origin` remote for the local repository.
 
-### Step 12: Push the commit
+### Step 12: Push the commit to GitHub
 
 Run `git push -u origin main`.
 
-**Expected result:** The first commit appears in the GitHub repository.
+**Expected result:** The first commit is uploaded to the GitHub repository and the `README.md` file appears online.
+
 
 ## Screenshot Description
 
